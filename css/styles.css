@@ -27,18 +27,9 @@ button { font: inherit; }
 
 .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.94); backdrop-filter: blur(14px); border-bottom: 1px solid #ededed; }
 .nav-wrap { min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-.brand { display: inline-flex; align-items: center; gap: 12px; min-width: 0; }
-.brand-copy { display: grid; gap: 1px; }
-.brand-name { font-size: 1.1rem; font-weight: 800; white-space: nowrap; }
-.brand-name strong { color: var(--orange); }
-.brand-tagline { color: var(--gray-500); font-size: .58rem; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
-
-.cct-mark { width: 50px; height: 32px; position: relative; display: inline-block; flex: 0 0 auto; }
-.cct-mark .c, .cct-mark .t-mark { position: absolute; top: 3px; height: 26px; }
-.cct-mark .c { width: 20px; border: 7px solid var(--charcoal); border-right-color: transparent; border-radius: 7px; }
-.cct-mark .c-one { left: 0; }
-.cct-mark .c-two { left: 15px; border-color: var(--orange); border-right-color: transparent; }
-.cct-mark .t-mark { left: 31px; width: 18px; border-top: 7px solid var(--charcoal); border-left: 7px solid var(--charcoal); border-radius: 4px 0 0 0; }
+.brand { display: inline-flex; align-items: center; min-width: 0; }
+.brand-logo { display: block; width: 350px; max-width: 100%; height: auto; }
+.footer-logo { display: block; width: 300px; max-width: 100%; height: auto; background: #fff; border-radius: 10px; padding: 8px 10px; }
 
 .main-nav { display: flex; align-items: center; gap: 28px; font-size: .94rem; font-weight: 600; }
 .main-nav a { position: relative; padding: 10px 0; color: #333; }
@@ -131,7 +122,6 @@ button { font: inherit; }
 
 .site-footer { background: #1e1e1e; color: #e7e7e7; padding: 54px 0 24px; }
 .footer-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 30px; align-items: start; }
-.footer-brand { font-size: 1.2rem; font-weight: 800; }.footer-brand strong { color: var(--orange); }
 .site-footer p, .footer-contact { color: #aaa; font-size: .88rem; }
 .site-footer nav { display: flex; flex-wrap: wrap; gap: 16px; font-size: .9rem; }
 .site-footer nav a:hover { color: var(--orange); }
