@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 160" role="img" aria-labelledby="title desc">
+  <title id="title">CCT icon</title>
+  <desc id="desc">CyberTech Tronics CCT monogram in black and orange.</desc>
+  <defs>
+    <style>
+      .blk { fill: #1f1f1f; }
+      .org { fill: #ff6a00; }
+    </style>
+  </defs>
+  <!-- Left C -->
+  <path class="blk" d="M40 80 L72 48 H156 L138 68 H88 L68 88 L88 108 H180 L160 128 H72 Z"/>
+  <!-- Center orange C / connector -->
+  <path class="org" d="M170 80 L202 48 H278 L260 68 H218 L198 88 L178 88 Z"/>
+  <path class="org" d="M194 110 H292 L274 128 H162 Z"/>
+  <!-- T -->
+  <path class="blk" d="M278 48 H350 V68 H304 V128 H272 V48 Z"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 150" role="img" aria-labelledby="title desc">
+  <title id="title">CyberTech Tronics logo</title>
+  <desc id="desc">CyberTech Tronics logo with CCT monogram, wordmark, and tagline.</desc>
+  <defs>
+    <style>
+      .blk { fill: #1f1f1f; }
+      .org { fill: #ff6a00; }
+      .gry { fill: #8a8a8a; }
+      .name { font: 700 50px Inter, Arial, Helvetica, sans-serif; letter-spacing: -1px; }
+      .tag { font: 600 18px Inter, Arial, Helvetica, sans-serif; letter-spacing: 1.6px; text-transform: uppercase; }
+    </style>
+  </defs>
+  <!-- icon -->
+  <g transform="translate(0,16) scale(0.92)">
+    <path class="blk" d="M40 80 L72 48 H156 L138 68 H88 L68 88 L88 108 H180 L160 128 H72 Z"/>
+    <path class="org" d="M170 80 L202 48 H278 L260 68 H218 L198 88 L178 88 Z"/>
+    <path class="org" d="M194 110 H292 L274 128 H162 Z"/>
+    <path class="blk" d="M278 48 H350 V68 H304 V128 H272 V48 Z"/>
+  </g>
+  <!-- wordmark -->
+  <text x="350" y="75" class="name blk">CyberTech</text>
+  <text x="665" y="75" class="name org">Tronics</text>
+  <text x="350" y="108" class="tag gry">Practical Software. Stronger Businesses.</text>
+</svg>
